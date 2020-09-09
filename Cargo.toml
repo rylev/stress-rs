@@ -10,3 +10,4 @@ bindings = { path = "bindings" }
 
 [package.metadata.winrt.dependencies]
 "Microsoft.Windows.SDK.Contracts" = "10.0.19041.1"
+"KennyKerr.Windows.TestWinRT" = "1.0.21"
