@@ -22,4 +22,4 @@ Initial investigation into why this compilation is slow has shown that the heavy
 
 ### Is rustc or LLVM the cause of the majority of the slow down?
 
-
+On a clean build `cargo build` seems to take around the 19m50s time frame while `cargo check` takes 17m00s. This indicates that it is likely rustc, not LLVM which is producing the bulk of the slow down though LLVM does seem to be slower than we would expect.
