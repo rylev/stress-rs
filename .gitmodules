@@ -1,0 +1,3 @@
+[submodule "winrt-rs"]
+	path = winrt-rs
+	url = git@github.com:microsoft/winrt-rs.git
